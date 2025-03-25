@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+body{
+    font-family: "Noto Sans JP", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #CDE8E5;
+}
+.header{
+    margin-top: -25px;
+    background-color: #4D869C;
+    color: #F1FAEE;
+    text-align: center;
+    height: 140px;
+    padding-top: 40px;
+}
+.footer{
+    margin-top: 70px;
+    background-color: #4D869C;
+    color: #F1FAEE;
+    text-align: center;
+    height: 100px;
+    padding-top: 40px;
+}
+.header p{
+    font-size:20px;
+}
+.header h1{
+    font-size:25px;
+}
+main{
+    color: #4D869C;
+    padding-top: 30px;
+    font-size: 20px;
+    margin: auto;
+    width: 360px;
+}
+th,td {
+    border: solid 3px;
+    padding: 5px 5px;
+
+}
+
+table {
+    text-align: center;
+    border-collapse:  collapse;
+}
+@media screen and (min-width: 500px) {
+	main{
+        width: 600px;
+    }
+}
+@media screen and (min-width: 960px) {
+	main{
+        width: 600px;
+    }
+}
+.inptext{
+    font-family: "Noto Sans JP", sans-serif;
+    padding-left: 5px;
+    margin-left: 10px;
+    width: 70%;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    border:0px solid #4D869C;
+    background-color: #d0f9fa;
+}
+.inpbutton{
+    font-family: "Noto Sans JP", sans-serif;
+    width: 20%;
+    margin: auto;
+    height: 52px;
+    font-size: 20px;
+    border-radius: 5px;
+    border:1px solid #4D869C;
+    background-color: #4D869C;
+    color: white;
+}
+.memo h3{
+    margin-left: 30px;
+}
+.memo p{
+    margin-left: 30px;
+}
